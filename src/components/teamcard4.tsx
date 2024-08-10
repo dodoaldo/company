@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
 export default function Teamcard4() {
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState<any>(null);
 
   useEffect(() => {
     async function fetchUser() {
