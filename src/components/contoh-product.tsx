@@ -1,6 +1,7 @@
 export default function ContohProduct() {
   return (
     <div>
+      /* eslint-disable react/no-unescaped-entities */
       <div className="items-center text-center mt-8 row-span-1 mb-8">
         <p className="text-2xl tracking-tight text-amber-700">You & Us</p>
         <p className="mt-2 text-6xl tracking-tighter text-amber-900">
@@ -93,6 +94,7 @@ export default function ContohProduct() {
           </h1>
         </div>
       </div>
+      /* eslint-disable react/no-unescaped-entities */
     </div>
   );
 }

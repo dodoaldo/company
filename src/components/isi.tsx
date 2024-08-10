@@ -1,6 +1,7 @@
 export default function Isi() {
   return (
     <div id="company-overview">
+      /* eslint-disable react/no-unescaped-entities */
       <div className=" h-[600px] bg-cover justify-between flex">
         <div className="w-[650px] text-green-950 p-28 ">
           <p className="font-extrabold text-5xl mb-6">
@@ -84,6 +85,7 @@ export default function Isi() {
           </h1>
         </div>
       </div>
+      /* eslint-disable react/no-unescaped-entities */
     </div>
   );
 }
