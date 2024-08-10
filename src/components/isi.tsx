@@ -82,15 +82,15 @@ export default function Isi() {
             <p className="text-slate-500 tracking-wider">Managing Director</p>
             <p className="tracking-widest text-amber-900 mb-6">Groot</p>
             <p className="tracking-tight mb-4">
-              “Quality is the word that I believe best describes our work and it
+            &quot;Quality is the word that I believe best describes our work and it
               is the foundation on which this company has been built. Knowing
               that any frame isn't completed to the highest standard possible,
-              is something I just could not accept."
+              is something I just could not accept.&quot;
             </p>
             <p className="tracking-tight">
-              "I take great pride in what we have achieved over the years and we
+            &quot;I take great pride in what we have achieved over the years and we
               will continue with the same drive and ambition that has served us
-              well, for many years to come."
+              well, for many years to come.&quot;
             </p>
             
           </h1>
