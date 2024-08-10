@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
-export default function Teamcard3() {
+export default function Teamcard() {
   const [user, setUser] = useState<any>(null);
 
   useEffect(() => {
@@ -81,7 +81,7 @@ export default function Teamcard3() {
           {user.name.first} {user.name.last}
         </h5>
         <span className="text-sm text-gray-500 dark:text-gray-400">
-          {user.gender === 'male' ? 'Manager' : 'Production Manager'} {/* Optional */}
+          {user.gender === 'male' ? 'Editor' : 'Typwriter'}
         </span>
         <div className="flex mt-4 md:mt-6">
           <a

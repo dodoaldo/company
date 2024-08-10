@@ -69,11 +69,6 @@ body {
   z-index: 1000; 
 }
 
-.intro {
-  background-image: url("https://i.pinimg.com/originals/2f/ea/4b/2fea4b012168f263b6a4a8a6b31adfb4.jpg");
-  position: relative;
-}
-
 .isi {
   background-image: url("https://wallpapercrafter.com/th800/147254-ink-tree-stump-artwork-white-background-simple-background-simple-drawing-shadow-pencil-drawing-leaves-branch-monochrome.jpg");
   background-size: cover;

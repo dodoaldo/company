@@ -50,7 +50,11 @@ const nextConfig = {
         '3.bp.blogspot.com',
         'oyster.ignimgs.com',
         'randomuser.me',
-        'randomuser.me/api/portraits/'
+        'randomuser.me/api/portraits/',
+        'oakframesdirect.com',
+        'theoakrestaurants.com',
+        'i.pinimg.com',
+        'i.ytimg.com'
       ],
     },
   };

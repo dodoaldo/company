@@ -29,8 +29,8 @@ export default function Navbar() {
       <Link href="/" className="h-[120px] w-[120px]">
         <Image
           src="https://fwtingleandsons.co.uk/wp-content/uploads/2019/02/Paragon-Oak-Logo-BLACK.png"
-          width={500}
-          height={500}
+          width={1200}
+          height={1200}
           alt="Paragon Oak Logo"
         />
       </Link>
