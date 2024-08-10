@@ -1,8 +1,19 @@
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
+interface User {
+  picture: {
+    large: string;
+  };
+  name: {
+    first: string;
+    last: string;
+  };
+  gender: string;
+}
+
 export default function Teamcard3() {
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState<any>(null);
 
   useEffect(() => {
     async function fetchUser() {
