@@ -1,32 +1,29 @@
 export default function ContohProduct() {
   return (
     <div>
-      
       <div className="items-center text-center mt-8 row-span-1 mb-8">
         <p className="text-2xl tracking-tight text-amber-700">You & Us</p>
         <p className="mt-2 text-6xl tracking-tighter text-amber-900">
-          Let's build this together.
+          Let&apos;s build this together.
         </p>
-        /* eslint-disable react/no-unescaped-entities */
         <p className="mt-3 text-base/loose">
-          Heart of oak … three words that for centuries have represented all
-          that is best and strong about Britain. Now Paragon Oak is proud to
+          Heart of oak &hellip; three words that for centuries have represented
+          all that is best and strong about Britain. Now Paragon Oak is proud to
           carry that great tradition forward into the 21st century.
         </p>
         <p className="text-base/loose">
           We specialise in the design, manufacture and installation of stunning
-          oak framed{" "}
+          oak framed
         </p>
         <p className="italic underline text-base/loose">
           buildings, Houses, Garden Rooms, Garages, Stables, Extensions,
           Commercial and more.
         </p>
-        /* eslint-disable react/no-unescaped-entities */
       </div>
 
       <div className="flex justify-center items-center h-screen mt-24">
         <div className="grid grid-cols-2 gap-4">
-          <h1 className="gambar-overflow">
+          <div className="gambar-overflow">
             <div
               className="bg-cover bg-no-repeat w-full h-full gambar-zoom"
               style={{
@@ -42,8 +39,8 @@ export default function ContohProduct() {
                 Residential Project
               </p>
             </button>
-          </h1>
-          <h1 className="gambar-overflow">
+          </div>
+          <div className="gambar-overflow">
             <div
               className="bg-cover bg-no-repeat w-full h-full gambar-zoom"
               style={{
@@ -59,8 +56,8 @@ export default function ContohProduct() {
                 Garage Project
               </p>
             </button>
-          </h1>
-          <h1 className="gambar-overflow">
+          </div>
+          <div className="gambar-overflow">
             <div
               className="bg-cover bg-no-repeat w-full h-full gambar-zoom"
               style={{
@@ -76,8 +73,8 @@ export default function ContohProduct() {
                 Commercial Project
               </p>
             </button>
-          </h1>
-          <h1 className="gambar-overflow">
+          </div>
+          <div className="gambar-overflow">
             <div
               className="bg-cover bg-no-repeat w-full h-full gambar-zoom"
               style={{
@@ -93,11 +90,9 @@ export default function ContohProduct() {
                 Stable Project
               </p>
             </button>
-          </h1>
+          </div>
         </div>
-        /* eslint-disable react/no-unescaped-entities */
       </div>
-      
     </div>
   );
 }

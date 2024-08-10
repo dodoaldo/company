@@ -7,10 +7,10 @@ export default function IsiHome() {
           <p className="my-8">
             Full of natural charm, our bespoke oak framed buildings are a dream for
             homeowners, architects, designers and developers alike. Oak is
-            wonderfully tactile – unique in its texture, warmth, and character –
-            but it’s also strong, versatile, and desirably sustainable, especially
+            wonderfully tactile  unique in its texture, warmth, and character 
+            but its also strong, versatile, and desirably sustainable, especially
             crafted using centuries-old techniques and 21st-century methods such
-            as encapsulation (SIPs).
+            as encapsulation.
             
           </p>
         </div>

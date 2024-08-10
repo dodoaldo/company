@@ -5,24 +5,26 @@ export default function Isi() {
     <div id="company-overview">
       <div className=" h-[600px] bg-cover justify-between flex">
         <div className="w-[650px] text-green-950 p-28 ">
-          /* eslint-disable react/no-unescaped-entities */
+          
           <p className="font-extrabold text-5xl mb-6">
             Roots are vital in anchoring the tree in the ground
           </p>
           <p>
             Determining its alignment and providing nutrients to grow. Paragon
-            Oak’s family of inventors, visionaries and exemplary craftsmen live
+            Oaks family of inventors, visionaries and exemplary craftsmen live
             and breathe these foundations to achieve success. Our team strives
             to sow passion, strength and determination, thus ensuring every
             project grows from start to finish with a precision and beauty that
             will last a lifetime.
           </p>
-          /* eslint-disable react/no-unescaped-entities */
+          
         </div>
         <div className="gambar-overflow mr-22 mt-28">
           <Image
             src="https://www.welshoakframe.com/wp-content/uploads/2023/04/NJY_DSC6721-400x400.jpg"
             alt="rumah2"
+            width={400}
+            height={200}
           />
         </div>
       </div>
@@ -31,6 +33,8 @@ export default function Isi() {
           className="w-[400px] h-[400px] relative"
           src="https://th.bing.com/th/id/OIP.HnylDfN1gCG8ebP__W2T4AHaH9?pid=ImgDet&w=161&h=173&c=7"
           alt="rumah3"
+          width={400}
+      height={400}
         />
         <h1 className="mb-6 w-[650px]">
           <p className="font-extrabold text-5xl">
@@ -43,16 +47,16 @@ export default function Isi() {
           <p className="text-2xl font-bold mb-6">
             All while working closely with you to bring your dreams to life.
           </p>
-          /* eslint-disable react/no-unescaped-entities */
+          
           <p>
             We at Paragon Oak are proud that the majority of our new projects
             come from client referrals. We take pride in our ability to tailor
-            the perfect customer experience – whether you want to fully immerse
+            the perfect customer experience whether you want to fully immerse
             yourself in the conceptual process of creating something beautiful
             or by trusting our expert team to design and transform your space in
             style.
           </p>
-          /* eslint-disable react/no-unescaped-entities */
+          
         </h1>
       </div>
       <div className="kotak w-[1200px] h-[500px] mx-auto ">
@@ -64,6 +68,8 @@ export default function Isi() {
           className="h-[400px] w-[200px] mr-5 relative"
           src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/marvel-studios-cinematic-universe/1/16/Groot_textless.jpg"
           alt=""
+          width={400}
+      height={400}
         />
       </div>
       <div>
@@ -73,7 +79,6 @@ export default function Isi() {
             <p className="italic"> visionaries and exemplary craftsmen</p>
           </h1>
           <h1 className="w-[400px] my-auto mx-5">
-            /* eslint-disable react/no-unescaped-entities */
             <p className="text-slate-500 tracking-wider">Managing Director</p>
             <p className="tracking-widest text-amber-900 mb-6">Groot</p>
             <p className="tracking-tight mb-4">
@@ -87,11 +92,11 @@ export default function Isi() {
               will continue with the same drive and ambition that has served us
               well, for many years to come."
             </p>
-            /* eslint-disable react/no-unescaped-entities */
+            
           </h1>
         </div>
       </div>
-      /* eslint-disable react/no-unescaped-entities */
+     
     </div>
   );
 }

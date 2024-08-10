@@ -14,11 +14,11 @@ export default function Testimonial() {
           </p>
           <p className="mt-8">
             Strong, durable and versatile, an oak framed building is like a fine
-            wine … it gets even better with age. What’s more, at a time when it
+            wine … it gets even better with age. Whats more, at a time when it
             is so vital to protect the environment, all our oak is
             sustainably-sourced. Working with such a wonderful material every
             day is an inspiration for our passionate craftsmen. Now it will be
-            Paragon’s privilege to work with you to create the perfect oak frame
+            Paragons privilege to work with you to create the perfect oak frame
             for your home or business.
           </p>
         </div>
@@ -31,12 +31,12 @@ export default function Testimonial() {
               We love to take on complex challenges
             </p>
             <p className="mb-8">
-              Paragon Oak’s award-winning reputation is testimony to more than
+              Paragon Oaks award-winning reputation is testimony to more than
               30 years of experience and knowledge. During this time we have
               taken pride in delivering the finest-quality design combined with
               exemplary customer service. Importantly, we understand how the
               best solutions always come from developing a close, trusted
-              relationship with clients. Don’t just take our word for it. Get
+              relationship with clients. Dont just take our word for it. Get
               inspired by taking a leaf from some of our delighted customers..
             </p>
           </div>
@@ -44,14 +44,16 @@ export default function Testimonial() {
             <Image
               src="https://cdn.quotesgram.com/img/15/15/1533334940-featured_thesaidwhat_final_5501.jpg"
               alt="what they said"
+              width={400}
+              height={400}
             />
           </div>
         </div>
       </div>
       <div className="justify-center flex my-20">
-        <Chat/>
-        <Chat2/>
-        <Chat3/>
+        <Chat />
+        <Chat2 />
+        <Chat3 />
       </div>
     </div>
   );

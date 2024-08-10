@@ -6,6 +6,8 @@ export default function Chat3() {
       <Image
         className="w-8 h-8 rounded-full"
         src="https://3.bp.blogspot.com/-jFke770FuUA/VnGN0MqDgzI/AAAAAAAAArI/x8NhcVlH9Ok/s1600/Foto%2BPria%2BGanteng%2BIndonesia%2B%252821%2529.jpg"
+        width={82}
+        height={82}
         alt="Jese image"
       />
       <div className="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl dark:bg-gray-700">

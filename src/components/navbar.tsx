@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
@@ -9,7 +9,7 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const descSection = document.getElementById("company-overview"); 
+      const descSection = document.getElementById("company-overview");
       if (descSection) {
         const descTop = descSection.getBoundingClientRect().top;
         setIsSticky(descTop <= 0);
@@ -21,9 +21,18 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className={`navbar bg-slate-400 justify-around p-3 gap-5 ${isSticky ? "sticky top-0 " : ""}`}>
+    <div
+      className={`navbar bg-slate-400 justify-around p-3 gap-5 ${
+        isSticky ? "sticky top-0 " : ""
+      }`}
+    >
       <Link href="/" className="h-[120px] w-[120px]">
-        <Image src="https://fwtingleandsons.co.uk/wp-content/uploads/2019/02/Paragon-Oak-Logo-BLACK.png" alt="Paragon Oak Logo" />
+        <Image
+          src="https://fwtingleandsons.co.uk/wp-content/uploads/2019/02/Paragon-Oak-Logo-BLACK.png"
+          width={500}
+          height={500}
+          alt="Paragon Oak Logo"
+        />
       </Link>
       <div className="flex justify-center items-end gap-5 tracking-tighter">
         <Link href="/">Home</Link>

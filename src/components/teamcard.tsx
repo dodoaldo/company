@@ -74,6 +74,8 @@ export default function Teamcard() {
           className="w-24 h-24 mb-3 rounded-full shadow-lg"
           src={user.picture.large}
           alt={`${user.name.first} ${user.name.last}`}
+          width={400}
+          height={400}
         />
         <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
           {user.name.first} {user.name.last}

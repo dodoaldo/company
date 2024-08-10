@@ -6,6 +6,8 @@ export default function Chat() {
       <Image
         className="w-8 h-8 rounded-full"
         src="https://awsimages.detik.net.id/community/media/visual/2019/09/25/2af8e9b6-031b-4ec0-93f5-d044a82650f9.jpeg?w=750&q=90"
+        width={82}
+        height={82}
         alt="Jese image"
       />
       <div className="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl dark:bg-gray-700">
