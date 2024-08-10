@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,10 +25,124 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  margin: 0 auto;
+  padding: 0;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.gambar-overflow {
+  overflow: hidden;
+  position: relative;
+  width: 800px;
+  height: 500px;
+}
+
+.gambar-zoom {
+  transition: transform 2s ease;
+  
+  display: block;
+}
+
+.gambar-overflow:hover .gambar-zoom {
+  transform: scale(1.2);
+}
+
+.navbar {
+  width: 100%;
+  position: relative;
+  height: 50px;
+  border-bottom: 20px;
+  display: flex;
+  letter-spacing: -0.082rem;
+  z-index: 99;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; 
+}
+
+.intro {
+  background-image: url("https://i.pinimg.com/originals/2f/ea/4b/2fea4b012168f263b6a4a8a6b31adfb4.jpg");
+  position: relative;
+}
+
+.isi {
+  background-image: url("https://wallpapercrafter.com/th800/147254-ink-tree-stump-artwork-white-background-simple-background-simple-drawing-shadow-pencil-drawing-leaves-branch-monochrome.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.rumah {
+  background-image: url("https://i.pinimg.com/originals/3c/3e/51/3c3e517d2b528d0ba750a566a0eb922a.jpg");
+  position: relative;
+}
+
+.kotak {
+  background: #4c4c4c;
+  top: -80px;
+  z-index: -1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image--hero{
+  z-index: -2;
+  /* filter: blur(2px); */
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.hero-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: -1;
+}
+
+.hero-section{
+  overflow: hidden;
+  width: auto;
+  height: 100vh;
+}
+
+.hero-content {
+  position: relative;
+  top: 40%;
+  transform: translateX(10%);
+}
+
+.hero-content p{
+  color: #fff;
+}
+
+.product1 {
+  background-image: url("https://i.pinimg.com/originals/ea/10/c7/ea10c7f99773f05f3e363058b027ab48.jpg");
+}
+
+  .product2 {
+  background-image: url("https://i.ytimg.com/vi/8YqWZM1Tt4Q/maxresdefault.jpg");
+}
+.product3 {
+  background-image: url("https://th.bing.com/th/id/OIP.XFEa6HY5xRa_E1lI8hfZ4gHaLH?rs=1&pid=ImgDetMain");
+}
+.product4 {
+  background-image: url("https://oakframesdirect.com/wp-content/uploads/2021/10/3-Bay-Oak-Frame-Garage-with-First-Floor-Oak-Frames-Direct-1.jpg");
 }
