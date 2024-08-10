@@ -11,6 +11,7 @@ export default function IsiHome() {
             but it’s also strong, versatile, and desirably sustainable, especially
             crafted using centuries-old techniques and 21st-century methods such
             as encapsulation (SIPs).
+            
           </p>
         </div>
       </div>
