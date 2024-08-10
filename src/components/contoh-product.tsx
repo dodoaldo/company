@@ -1,12 +1,13 @@
 export default function ContohProduct() {
   return (
     <div>
-      /* eslint-disable react/no-unescaped-entities */
+      
       <div className="items-center text-center mt-8 row-span-1 mb-8">
         <p className="text-2xl tracking-tight text-amber-700">You & Us</p>
         <p className="mt-2 text-6xl tracking-tighter text-amber-900">
           Let's build this together.
         </p>
+        /* eslint-disable react/no-unescaped-entities */
         <p className="mt-3 text-base/loose">
           Heart of oak … three words that for centuries have represented all
           that is best and strong about Britain. Now Paragon Oak is proud to
@@ -20,6 +21,7 @@ export default function ContohProduct() {
           buildings, Houses, Garden Rooms, Garages, Stables, Extensions,
           Commercial and more.
         </p>
+        /* eslint-disable react/no-unescaped-entities */
       </div>
 
       <div className="flex justify-center items-center h-screen mt-24">
@@ -93,8 +95,9 @@ export default function ContohProduct() {
             </button>
           </h1>
         </div>
+        /* eslint-disable react/no-unescaped-entities */
       </div>
-      /* eslint-disable react/no-unescaped-entities */
+      
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import Chat3 from "./chatbubble3";
 import Chat from "./chatbubble";
 import Chat2 from "./chatbubble2";
+import Image from "next/image";
 
 export default function Testimonial() {
   return (
@@ -40,7 +41,7 @@ export default function Testimonial() {
             </p>
           </div>
           <div>
-            <img
+            <Image
               src="https://cdn.quotesgram.com/img/15/15/1533334940-featured_thesaidwhat_final_5501.jpg"
               alt="what they said"
             />

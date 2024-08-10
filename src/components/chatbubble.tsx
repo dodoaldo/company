@@ -1,7 +1,9 @@
+import Image from "next/image";
+
 export default function Chat() {
   return (
     <div className="flex items-start gap-2.5">
-      <img
+      <Image
         className="w-8 h-8 rounded-full"
         src="https://awsimages.detik.net.id/community/media/visual/2019/09/25/2af8e9b6-031b-4ec0-93f5-d044a82650f9.jpeg?w=750&q=90"
         alt="Jese image"

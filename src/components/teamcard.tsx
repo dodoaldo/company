@@ -1,4 +1,4 @@
-import { IUser } from '@/app/type';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
 export default function Teamcard() {
@@ -70,7 +70,7 @@ export default function Teamcard() {
         </div>
       </div>
       <div className="flex flex-col items-center pb-10">
-        <img
+        <Image
           className="w-24 h-24 mb-3 rounded-full shadow-lg"
           src={user.picture.large}
           alt={`${user.name.first} ${user.name.last}`}

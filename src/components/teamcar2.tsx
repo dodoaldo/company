@@ -1,6 +1,11 @@
-import { IUser } from '@/app/type';
 import { useState, useEffect } from 'react';
+import { Metadata } from "next";
+import Image from 'next/image';
 
+export const metadata: Metadata = {
+  title: "About Us",
+  description: "Learn more about us on this page.",
+};
 
 export default function Teamcard2() {
   const [user, setUser] = useState(null);
@@ -74,7 +79,7 @@ export default function Teamcard2() {
         </div>
       </div>
       <div className="flex flex-col items-center pb-10">
-        <img
+        <Image
           className="w-24 h-24 mb-3 rounded-full shadow-lg"
           src={user.picture.large}
           alt={`${user.name.first} ${user.name.last}`}

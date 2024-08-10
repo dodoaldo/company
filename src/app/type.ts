@@ -1,6 +1,11 @@
 export interface IUser {
-    id: string;
-    name: string;
-    email: string;
-    dob: number;
+  id: string;
+  name: {
+    first: string;
+    last: string;
+  };
+  picture: {
+    large: string;
+  };
+  gender: string;
 }

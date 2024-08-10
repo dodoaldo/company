@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function IsiHome2() {
   return (
     <div className="bg-slate-600 flex justify-between">
@@ -15,7 +17,7 @@ export default function IsiHome2() {
         </p>
       </div>
 
-        <img className="my-[2%]" src="https://th.bing.com/th/id/OIP.3rAY-UFQha_rrXCEP3G8CwHaGV?rs=1&pid=ImgDetMain" alt="Tree image" />
+        <Image className="my-[2%]" src="https://th.bing.com/th/id/OIP.3rAY-UFQha_rrXCEP3G8CwHaGV?rs=1&pid=ImgDetMain" alt="Tree image" />
       <div>
             
       </div>

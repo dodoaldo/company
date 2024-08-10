@@ -1,7 +1,9 @@
+import Image from "next/image";
+
 export default function Chat3() {
   return (
     <div className="flex items-start gap-2.5">
-      <img
+      <Image
         className="w-8 h-8 rounded-full"
         src="https://3.bp.blogspot.com/-jFke770FuUA/VnGN0MqDgzI/AAAAAAAAArI/x8NhcVlH9Ok/s1600/Foto%2BPria%2BGanteng%2BIndonesia%2B%252821%2529.jpg"
         alt="Jese image"
